@@ -4,7 +4,7 @@
 function validNameByUser(name) {
     if(!name) throw new Error('Nome is not exits.');
     if(typeof name !== "string") throw new Error('Nome is not string.');
-    if(name.length <= 3) throw new Error('Nome is short name.');
+    if(name.length <= 3) throw new Error('Nome is short name.')
      
     return true
 }
